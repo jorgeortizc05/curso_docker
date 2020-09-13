@@ -1,0 +1,5 @@
+-Is a template for create an environment
+-It contains all elements needed by your app (libs, env, config files, software, code, etc)
+-It can have a version or snapshots based on time
+-Its immutable(not modified), but it can be cloned or shared
+-These images are create using a dockerfile
