@@ -2,3 +2,19 @@
 *you can find a ton of images on docker.hub, (container repository)
 *It achieve native system performance
 *there can be multiple containers in a single machine
+*Comando run es ejecutar procesos a partir de la imagen, de esta se ejecuta contenedores
+*En una sola maquina se puede ejecutar cientos de contenedores, el limite es el hardware
+*Cada contenedor tiene un id unico.
+
+*Lista de contenedores. Cada proceso es un contenedor
+docker ps
+*Historial de los contenedores ejecutados
+docker ps -a
+*Eliminar un contenedor id
+docker rm idContenedor
+*Eliminar un contenedor nombre
+docker rm nombreContenedor
+*Volver a iniciarlo
+docker start idContenedor (incluso basta con los 3 primeros caracteres)
+*Parar un contenedor (proceso)
+docker stop idContenedor
