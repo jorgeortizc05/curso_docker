@@ -1,0 +1,10 @@
+Install
+Page: https://docs.docker.com/engine/install/fedora/
+
+Para probar.
+docker run hello-world
+
+Si usas sudo, tienes que seguir la post installation
+https://docs.docker.com/engine/install/linux-postinstall/
+sudo groupadd docker --create the docer group
+sudo usermod -aG docker $USER

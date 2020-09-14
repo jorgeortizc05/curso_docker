@@ -1,5 +1,33 @@
+Page: hub.docker.com
+
+
 -Is a template for create an environment
 -It contains all elements needed by your app (libs, env, config files, software, code, etc)
 -It can have a version or snapshots based on time
 -Its immutable(not modified), but it can be cloned or shared
 -These images are create using a dockerfile
+
+-Ver las imagenes instaladas
+docker images
+REPOSITORY	TAG	IMAGE_ID	CREATED		SIZE
+hello-world	latest	bf756b1ae65	4 months ago	12.3kb
+name repository	version	id				
+TAG: Puedes instalar una image especificas.
+
+-Para buscar imagenes si no quieres usar la pagina web
+docker search imagenBuscar
+ex: docker search ubuntu
+
+-instalar ubuntu. se crea como un contenedor
+docker pull ubuntu
+
+-Correr ubuntu
+docker run ubuntu
+-Correr hello world usando ubuntu
+docker run ubuntu echo 'hello world'
+-Ejecutar bash de manera interactiva "-it"
+docker run -it ubuntu bash
+
+
+-Ver los procesos de tus images
+docker ps
